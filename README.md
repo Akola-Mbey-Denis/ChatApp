@@ -129,11 +129,6 @@ Libraries used:
 - [moongose](https://aqueous-taiga-66714.herokuapp.com)- 
 - [Moment.js](https://github.com/moment/moment)
 - [Auth0](https://auth0.com/)
-
-# Running application
-- Build the install docker and run the following commands:
-- docker build -t chatappbackend .
-- docker run -p 8007:8007 chatappbackend to run the application locally.
  
 Thank you,
 
