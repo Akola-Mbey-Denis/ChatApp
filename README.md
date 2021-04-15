@@ -12,8 +12,7 @@
  
   - [Setup](#setup)
   - [Docker Configuration](#docker-configuration)
-  - [Chatappbackend](#backend description)
-  
+  - [Chatappbackend](#backend description) 
 
 ---
 
