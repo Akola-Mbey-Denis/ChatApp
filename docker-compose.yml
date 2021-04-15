@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+    frontend:
+        container_name: chatappfrontend
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        image: denis/chatappfrontend
+        stdin_open: true
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./client:/usr/src/app
+            - /src/app/node_modules
+         
+    backend:
+        container_name: chatappbackend
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        image: denis/chatappbackend
+        stdin_open: true
+        ports:
+            - "8007:8007"
+        volumes:
+            - ./server:/usr/src/app
+            - /src/app/node_modules
+        
