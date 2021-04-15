@@ -128,7 +128,7 @@ Libraries used:
 - [express](https://github.com/expressjs/express)
 - [moongose](https://aqueous-taiga-66714.herokuapp.com)- 
 - [Moment.js](https://github.com/moment/moment)
-- [Auth0] (Which handles user registration in the frontend)
+- [Auth0](https://auth0.com/)
 
 # Running application
 - Build the install docker and run the following commands:
